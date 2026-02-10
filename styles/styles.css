@@ -36,10 +36,6 @@ a:link {
 ul {
   color: white;
 }
-form {
-  color: white;
-  text-decoration: none;
-}
 textarea {
   width: 25rem;
   height: 10rem;
@@ -48,4 +44,13 @@ table {
   color: white;
   text-decoration: none;
   border-spacing: 2.5rem;
+}
+form {
+  color: white;
+  text-decoration: none;
+}
+caption {
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
 }
