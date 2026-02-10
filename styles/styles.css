@@ -51,6 +51,7 @@ form {
 }
 caption {
   font-size: 2rem;
+  font-weight: bolder;
   color: white;
   text-decoration: none;
 }
