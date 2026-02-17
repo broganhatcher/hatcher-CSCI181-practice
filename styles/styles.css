@@ -31,7 +31,7 @@ nav {
 a,
 a:link {
   color: white;
-  text-decoration: none;
+  text-decoration: underline;
 }
 ul {
   color: white;
@@ -54,4 +54,8 @@ caption {
   font-weight: bolder;
   color: white;
   text-decoration: none;
+}
+nav {
+  position: sticky;
+  top: 0;
 }
