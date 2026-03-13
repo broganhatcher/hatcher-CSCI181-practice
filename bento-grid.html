@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <style>
+      .bento-grid {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 20px;
+      }
+      .grid-item {
+        border-radius: 16px;
+        overflow: hidden;
+        height: auto;
+      }
+      .grid-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+      }
+      span-col-2 {
+        grid-column: span 2;
+        aspect-ratio: 2/1;
+      }
+      .span-row-2 {
+        grid-row: span 2;
+      }
+      .color-fill {
+        background-color: brown;
+      }
+      .grid-item .center-tile {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .gird-item.center-tile .icon-styles {
+        width: 25%;
+        height: auto;
+      }
+      .grid-item.center-tile h1 {
+        color: #fff;
+        font-size: 64px;
+        font-family: Roboto, Arial, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+      <nav>
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        </ul>
+      </nav>
+    <main class="page-wrapper">
+      <section class="bento-grid">
+        <div class="grid-item"><img src="images/ballvsquare.jpg" alt="ball vs square"></img></div>
+        <div class="grid-item"><img src="images/house.jpg" alt="house"></img></div>
+        <div class="grid-item"><img src="images/laptop.jpg" alt="laptop"></img></div>
+        <div class="grid-item"><img src="images/person.jpg" alt  ="person"></img></div>
+        <div class="grid-item"><img src="images/sciency.jpg" alt="sciency"></img></div>
+        <div class="grid-item"><img src="images/tablet.jpg" alt="technology"></img></div>
+      </section>
+    </main>
+  </body>
+</html>
