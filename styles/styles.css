@@ -106,3 +106,20 @@ span-col-2 {
   font-size: 64px;
   font-family: Roboto, Arial, sans-serif;
 }
+.profile-circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%; /* Makes it a circle */
+}
+.review {
+  font-size: 1.5rem;
+  font-style: italic;
+  background-color: transparent;
+  color: black;
+}
+li.card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
