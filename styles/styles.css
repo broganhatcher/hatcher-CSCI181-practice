@@ -123,3 +123,31 @@ li.card {
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+#skip-link {
+  position: absolute;
+  left: 0px;
+  top: 0;
+  padding: 0.5rem 0.75rem;
+  background: #000;
+  color: black !important;
+  border-radius: 0.5rem;
+}
+#skip-link:focus {
+  left: 0.75rem;
+  top: 0.75rem;
+}
+#skip-link:hover {
+  color: #ffffff !important;
+  text-decoration: none;
+}
+/* Reduce/disable animation if the user prefers reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    animation-delay: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    transition-delay: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
