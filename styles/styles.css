@@ -82,7 +82,7 @@ nav {
   object-fit: cover;
   display: block;
 }
-span-col-2 {
+.span-col-2 {
   grid-column: span 2;
   aspect-ratio: 2/1;
 }
